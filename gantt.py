@@ -98,8 +98,6 @@ def create_gantt(prj_name,df, output_file):
                    textposition='middle right', 
                    textfont=dict(size=TEXT_FONT_SIZE),
                    marker=dict(size=15,symbol='diamond'))
-        # fig5=px.scatter(task_completed,x='Start Date',y='End Date')
-        # fig.add_trace(fig5.data[0])
 
         # Milestone visualization
         try:      
